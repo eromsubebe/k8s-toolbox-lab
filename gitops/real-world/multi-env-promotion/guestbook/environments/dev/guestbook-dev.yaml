@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: guestbook-dev
+spec:
+  destination:
+    namespace: default
+    server: https://34.170.157.3
+  source:
+    path: guestbook/environments/dev
+    repoURL: https://github.com/eromsubebe/argocd-example-apps.git
+    targetRevision: HEAD
+  sources: []
+  project: default
