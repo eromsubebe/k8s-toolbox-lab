@@ -8,7 +8,7 @@ spec:
     server: https://34.170.157.3
   source:
     path: guestbook/environments/dev
-    repoURL: https://github.com/eromsubebe/argocd-example-apps.git
+    repoURL: https://github.com/eromsubebe/k8s-toolbox-lab.git
     targetRevision: HEAD
   sources: []
   project: default

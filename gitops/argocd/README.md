@@ -135,7 +135,7 @@ metadata:
 spec:
   destination:
     namespace: default
-    server: <https://34.55.215.188>
+    server: <https://34.170.157.3>
   source:
     path: guestbook
     repoURL: https://github.com/argoproj/argocd-example-apps.git

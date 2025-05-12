@@ -1,11 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: guestbook
+  name: guestbook-test
 spec:
   replicas: 3
   template:
     spec:
       containers:
-        - name: guestbook
-          image: gcr.io/google-samples/gb-frontend:v5
+        - name: guestbook-test
+          # image: gcr.io/google-samples/gb-frontend:v5
+          image: gcr.io/heptio-images/ks-guestbook-demo:0.2
