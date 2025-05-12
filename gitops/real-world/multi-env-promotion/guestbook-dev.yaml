@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: guestbook-dev
+  name: guestbook-test
 spec:
   destination:
     namespace: default
     server: https://34.170.157.3
   source:
-    path: guestbook/environments/dev
+    path: gitops/real-world/multi-env-promotion/guestbook/environments/dev
     repoURL: https://github.com/eromsubebe/k8s-toolbox-lab.git
     targetRevision: HEAD
   sources: []
