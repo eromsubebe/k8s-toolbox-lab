@@ -21,6 +21,9 @@ This lab demonstrates a GitOps workflow using ArgoCD and Kustomize to promote ap
    Cluster URL: 'https://34.170.157.3' added
 
    Argocd server: 34.56.141.59 (for logging into)
+
+❯ echo $ARGOCD_PASSWORD
+p2EbV4DG4a68Nro
    ```
 
 3. Deploy apps for each environment:

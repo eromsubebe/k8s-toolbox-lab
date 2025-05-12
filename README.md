@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Kubernetes Toolbox Lab
 
 This repository provides hands-on exercises to learn and practice Kubernetes platform engineering tools using a GKE cluster (Google Cloud Free Tier compatible).
@@ -54,12 +53,3 @@ Clone this repo and work through each tool step by step.
 git clone https://github.com/<your-org>/k8s-toolbox-lab.git
 cd k8s-toolbox-lab
 ```
-
-## License
-
-MIT
-||||||| empty tree
-=======
-# k8s-toolbox-lab
-hands-on lab work learning argocd
->>>>>>> 062377524d703d12bc3bf62841d0fc4791341dd9
